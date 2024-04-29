@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | News homepage</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+
+    <menu class="menu-wrap">
+      <div class="menu__shadow"></div>
+      <div class="menu">
+        <div class="menu__img-wrap">
+          <img class="menu__icon" id="close-icon" src="assets/images/icon-menu-close.svg" alt="">
+        </div>
+        <ul class="menu__list">
+          <li><a class="menu__text" href="#">Home</a></li>
+          <li><a class="menu__text" href="#">New</a></li>
+          <li><a class="menu__text" href="#">Popular</a></li>
+          <li><a class="menu__text" href="#">Trending</a></li>
+          <li><a class="menu__text" href="#">Categories</a></li>
+        </ul>
+      </div>
+    </menu>
+
+    <nav class="nav flex">
+      <div class="nav__logo-wrap">
+        <img class="nav__logo" src="assets/images/logo.svg" alt="">
+      </div>
+      <ul class="nav__list">
+        <li><a class="nav__el" href="#">Home</a></li>
+        <li><a class="nav__el" href="#">New</a></li>
+        <li><a class="nav__el" href="#">Popular</a></li>
+        <li><a class="nav__el" href="#">Trending</a></li>
+        <li><a class="nav__el" href="#">Categories</a></li>
+      </ul>
+      <div class="nav__icon-wrap">
+        <img class="nav__icon" id="nav-icon" src="assets/images/icon-menu.svg" alt="">
+      </div>
+    </nav>
+
+    <div class="main-aside flex">
+
+      <main class="main">
+        <div class="main__img-wrap">
+          <img class="main__img-desk" src="assets/images/image-web-3-desktop.jpg" alt="">
+          <img class="main__img-mob" src="assets/images/image-web-3-mobile.jpg" alt="">
+        </div>
+        <div class="main__content">
+          <div class="main__title-wrap">
+            <h1 class="main__title">The Bright Future of Web 3.0?</h1>
+          </div>
+          <div class="main__descr-wrap">
+            <p class="main__descr">We dive into the next evolution of the web that claims to 
+            put the power of the platforms back into the hands of the people. 
+            But is it really fulfilling its promise?</p>
+            <button class="main__btn"><a class="main__redirect" href="#">Read more</a></button>
+          </div>
+        </div>
+      </main>
+      
+      <aside class="aside">
+        <h2 class="aside__title">New</h2>
+        <div class="aside__content-wrap">
+          <a class="aside__redirect" href="#">Hydrogen VS Electric Cars</a>
+          <p class="aside__descr">Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+        <hr>
+        <div class="aside__content-wrap">
+          <a class="aside__redirect" href="#">The Downsides of AI Artistry</a>
+          <p class="aside__descr">What are the possible adverse effects of on-demand AI image generation?</p>
+        </div>
+        <hr>
+        <div class="aside__content-wrap">
+          <a class="aside__redirect" href="#">Is VC Funding Drying Up?</a>
+          <p class="aside__descr">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
+      </aside>
+    </div>
+
+    <footer class="footer flex">
+      <div class="footer__part">
+        <div class="footer__img-wrap">
+          <img src="assets/images/image-retro-pcs.jpg" alt="">
+        </div>
+        <div class="footer__content-wrap">
+          <h3 class="footer__number">01</h3>
+          <a class="footer__redirect" href="#">Reviving Retro PCs</a>
+          <p class="footer__descr">What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
+      <div class="footer__part">
+        <div class="footer__img-wrap">
+          <img src="assets/images/image-top-laptops.jpg" alt="">
+        </div>
+        <div class="footer__content-wrap">
+          <h3 class="footer__number">02</h3>
+          <a class="footer__redirect" href="#">Top 10 Laptops of 2022</a>
+          <p class="footer__descr">Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+      <div class="footer__part">
+        <div class="footer__img-wrap">
+          <img src="assets/images/image-gaming-growth.jpg" alt="">
+        </div>
+        <div class="footer__content-wrap">
+          <h3 class="footer__number">03</h3>
+          <a class="footer__redirect" href="#">The Growth of Gaming</a>
+          <p class="footer__descr">How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
